@@ -44,12 +44,12 @@ header h1, header h2, header p {
 main {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 8vh 2vw 0 2vw;
 }
 
 section {
-    margin-bottom: 8vh;
+    margin: 0 4vw 10vh 4vw;
     width: 40%;
     text-align: center;
 }
@@ -70,4 +70,11 @@ img {
     margin-top: 3vh;
     width: 100%;
     height: auto;
+}
+
+footer {
+    width: 100%;
+    padding: 1vh 0 1vh 0;
+    background-color: rgb(245, 245, 245);
+    text-align: center;
 }
